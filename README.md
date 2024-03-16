@@ -25,6 +25,8 @@ To utilize this activator, follow these simple steps:
 [![YouTube](https://img.youtube.com/vi/2igWL_A33Lg/0.jpg)](https://www.youtube.com/watch?v=2igWL_A33Lg)
 
 ## License Info
+```
 Edition Name: web host edition
 Plesk Key ID: PLSK110705190002
 License Expiry Date: 2024-04-21
+```
