@@ -12,7 +12,7 @@ To utilize this activator, follow these simple steps:
 
 1. Download the activator script:
    ```bash
-   wget https://raw.githubusercontent.com/inc-Majdev/freePleskActivator/main/freePleskActivator.php
+   wget -O https://raw.githubusercontent.com/inc-Majdev/freePleskActivator/main/freePleskActivator.php
    ```
 
 2. Execute the script using Plesk PHP:
@@ -24,6 +24,7 @@ To utilize this activator, follow these simple steps:
 ### Video
 [![YouTube](https://img.youtube.com/vi/2igWL_A33Lg/0.jpg)](https://www.youtube.com/watch?v=2igWL_A33Lg)
 
-## License Validity Date
-March 16, 2024
-[Will update soon]
+## License Info
+Edition Name: web host edition
+Plesk Key ID: PLSK110705190002
+License Expiry Date: 2024-04-21
