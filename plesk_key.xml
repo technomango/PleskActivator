@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><plesk-unified:key xmlns:plesk-unified="http://parallels.com/schemas/keys/products/plesk/unified/multi" core:format="openfusion-3" xmlns:core="http://parallels.com/schemas/keys/core/3">
    <!--Unique product Key number-->
-   <core:key-number core:type="string">PLSK.11070519</core:key-number>
+   <core:key-number core:type="string">PLSK.07228283</core:key-number>
    <!--Key version-->
-   <core:key-version core:type="string">0002</core:key-version>
+   <core:key-version core:type="string">0039</core:key-version>
    <!--Key description-->
    <core:description>
       <core:keytype>Plesk Web Host Edition (Dedicated Server)</core:keytype>
+      <core:feature>Extras (MPC) Buttons Off</core:feature>
+      <core:feature>Store Button Off</core:feature>
       <core:feature>Monthly SUS for Plesk</core:feature>
-      <core:feature>1 Language Pack for Plesk 12/Onyx/Obsidian</core:feature>
-      <core:property core:value="1">Additional Language Packs</core:property>
+      <core:feature>Web Presence Builder for Plesk 12/Onyx/Obsidian - 1000 Sites</core:feature>
    </core:description>
    <!--Product which this license is intended to work on-->
    <core:product core:type="string">plesk-unified</core:product>
@@ -21,12 +22,12 @@
    <!--Date after which this license becomes usable (inclusive)-->
    <core:start-date core:type="date">instant</core:start-date>
    <!--Date before which this license is usable (exclusive)-->
-   <core:expiration-date core:type="date">2024-04-21</core:expiration-date>
+   <core:expiration-date core:type="date">2024-05-02</core:expiration-date>
    <!--URL of the service endpoint to use when performing an autoupdate-->
    <core:license-server-url core:type="string">https://ka.plesk.com/xmlrpc</core:license-server-url>
    <!--Date when product will try to perform an autoupdate-->
-   <core:update-date core:type="date">2024-04-11</core:update-date>
-   <core:update-ticket core:hidden="true" core:type="string">l9il2s92pmrj623hel-ndy69qdzfduaw</core:update-ticket>
+   <core:update-date core:type="date">2024-04-22</core:update-date>
+   <core:update-ticket core:hidden="true" core:type="string">gv73lgrcqg7dp9e0mj-oa898ituhbwnf</core:update-ticket>
    <!--Number of domains-->
    <plesk-unified:domains core:type="integer">unlimited</plesk-unified:domains>
    <!--Number of clients-->
@@ -36,9 +37,9 @@
    <!--Number of mailnames-->
    <plesk-unified:mailnames core:type="integer">unlimited</plesk-unified:mailnames>
    <!--Number of additional language pack(s)-->
-   <plesk-unified:language-packs core:type="integer">1</plesk-unified:language-packs>
+   <plesk-unified:language-packs core:type="integer">0</plesk-unified:language-packs>
    <plesk-unified:mpc-id core:hidden="true" core:type="integer">0</plesk-unified:mpc-id>
-   <plesk-unified:mpc-disabled core:hidden="true" core:type="boolean">false</plesk-unified:mpc-disabled>
+   <plesk-unified:mpc-disabled core:hidden="true" core:type="boolean">true</plesk-unified:mpc-disabled>
    <!--Google tools-->
    <plesk-unified:google-tools core:type="boolean">false</plesk-unified:google-tools>
    <!--Number of slaves-->
@@ -91,7 +92,7 @@
    <plesk-unified:autoinstaller-config core:hidden="true" core:type="string">true</plesk-unified:autoinstaller-config>
    <!--Ability to use DrWeb-->
    <plesk-unified:drweb-support core:type="boolean">true</plesk-unified:drweb-support>
-   <plesk-unified:store-id core:hidden="true" core:type="integer">1</plesk-unified:store-id>
+   <plesk-unified:store-id core:hidden="true" core:type="integer">0</plesk-unified:store-id>
    <!--Ability to use Migration Manager-->
    <plesk-unified:migration-manager core:type="boolean">true</plesk-unified:migration-manager>
    <!--Ability to use MS SQL-->
@@ -101,7 +102,7 @@
    <!--Parallels Plesk Billing accounts count-->
    <plesk-unified:modernbill-accounts core:type="integer">0</plesk-unified:modernbill-accounts>
    <!--Number of sites-->
-   <plesk-unified:sitebuilder-sites core:type="integer">10</plesk-unified:sitebuilder-sites>
+   <plesk-unified:sitebuilder-sites core:type="integer">1000</plesk-unified:sitebuilder-sites>
    <!--Enable Parallels Plesk Subscriptions Management-->
    <plesk-unified:can-manage-subscriptions core:type="boolean">true</plesk-unified:can-manage-subscriptions>
    <!--Enable Parallels Plesk Service Provider Mode-->
@@ -127,7 +128,7 @@
    <!--Web Presence Builder for Plesk - Multi-language Sites Support feature-->
    <plesk-unified:wpb-multi-language-sites-support core:type="boolean">false</plesk-unified:wpb-multi-language-sites-support>
    <!--Remote SmarterMail Support-->
-   <plesk-unified:remote-smartermail-enabled core:type="boolean">true</plesk-unified:remote-smartermail-enabled>
+   <plesk-unified:remote-smartermail-enabled core:type="boolean">false</plesk-unified:remote-smartermail-enabled>
    <!--Limit System Resources per Subscription-->
    <plesk-unified:system-resources-limits-enabled core:type="boolean">true</plesk-unified:system-resources-limits-enabled>
    <!--Enable WP Toolkit Deluxe-->
@@ -137,13 +138,11 @@
    <!--Plesk Branding-->
    <plesk-unified:edition-name core:type="string">web host edition</plesk-unified:edition-name>
    <!--Information about feature packs-->
-   <plesk-unified:feature-packs-info core:encoding="base64" core:type="binary">W3siY29kZSI6Im9mZmVyLXBvd2VyLXBhY2siLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiUG93ZXIgUGFjayIsIm9yaWdpbiI6ImJ1bmRsZWQiLCJidW5kbGUiOiJIb3N0aW5nIFBhY2sgZm9yIFBsZXNrIiwib3JkZXJBY3Rpb24iOm51bGwsInNvdXJjZSI6InBhcnRuZXIifSx7ImNvZGUiOiJvZmZlci1jZ3JvdXBzIiwia2V5TnVtYmVyIjpudWxsLCJkZXNjcmlwdGlvbiI6IlBsZXNrIENncm91cHMgTWFuYWdlciIsIm9yaWdpbiI6ImJ1bmRsZWQiLCJidW5kbGUiOiJQbGVzayBXZWIgSG9zdCBFZGl0aW9uIChEZWRpY2F0ZWQgU2VydmVyKSIsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJwYXJ0bmVyIn0seyJjb2RlIjoib2ZmZXItY29tcGxldGUtYmFja3VwLXNvbHV0aW9uIiwia2V5TnVtYmVyIjoiMTEwNzI2ODUiLCJkZXNjcmlwdGlvbiI6IkJhY2t1cCB0byBDbG91ZCBQcm8iLCJvcmlnaW4iOiJidW5kbGVkIiwiYnVuZGxlIjoiSG9zdGluZyBQYWNrIGZvciBQbGVzayIsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJwYXJ0bmVyIn0seyJjb2RlIjoib2ZmZXItaG9zdGluZy1wYWNrIiwia2V5TnVtYmVyIjoiMTEwNzI2NzgiLCJkZXNjcmlwdGlvbiI6Ikhvc3RpbmcgUGFjayIsIm9yaWdpbiI6ImluZGl2aWR1YWwiLCJidW5kbGUiOm51bGwsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJwYXJ0bmVyIn0seyJjb2RlIjoib25lLWRyaXZlLWJhY2t1cCIsImtleU51bWJlciI6bnVsbCwiZGVzY3JpcHRpb24iOiJNaWNyb3NvZnQgT25lRHJpdmUgQmFja3VwIiwib3JpZ2luIjoiYnVuZGxlZCIsImJ1bmRsZSI6Ikhvc3RpbmcgUGFjayBmb3IgUGxlc2siLCJvcmRlckFjdGlvbiI6bnVsbCwic291cmNlIjoicGFydG5lciJ9LHsiY29kZSI6Im9mZmVyLWxhbmd1YWdlLXBhY2siLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiTGFuZ3VhZ2UgUGFjayIsIm9yaWdpbiI6ImluZGl2aWR1YWwiLCJidW5kbGUiOm51bGwsIm9yZGVyQWN0aW9uIjoiYnV5Iiwic291cmNlIjoicGFydG5lciJ9LHsiY29kZSI6Imdvb2dsZS1kcml2ZS1iYWNrdXAiLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiR29vZ2xlIERyaXZlIEJhY2t1cCIsIm9yaWdpbiI6ImJ1bmRsZWQiLCJidW5kbGUiOiJIb3N0aW5nIFBhY2sgZm9yIFBsZXNrIiwib3JkZXJBY3Rpb24iOm51bGwsInNvdXJjZSI6InBhcnRuZXIifSx7ImNvZGUiOiJvZmZlci13ZWItcHJlc2VuY2UtYnVpbGRlciIsImtleU51bWJlciI6bnVsbCwiZGVzY3JpcHRpb24iOiJXZWIgUHJlc2VuY2UgQnVpbGRlciIsIm9yaWdpbiI6ImJ1bmRsZWQiLCJidW5kbGUiOiJIb3N0aW5nIFBhY2sgZm9yIFBsZXNrIiwib3JkZXJBY3Rpb24iOiJidXkiLCJzb3VyY2UiOiJwYXJ0bmVyIn0seyJjb2RlIjoiZHJvcGJveC1iYWNrdXAiLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiRHJvcGJveCBCYWNrdXAiLCJvcmlnaW4iOiJidW5kbGVkIiwiYnVuZGxlIjoiSG9zdGluZyBQYWNrIGZvciBQbGVzayIsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJwYXJ0bmVyIn0seyJjb2RlIjoib2ZmZXItZGV2ZWxvcGVyLXBhY2siLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiRGV2ZWxvcGVyIFBhY2siLCJvcmlnaW4iOiJidW5kbGVkIiwiYnVuZGxlIjoiSG9zdGluZyBQYWNrIGZvciBQbGVzayIsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJwYXJ0bmVyIn0seyJjb2RlIjoiczMtYmFja3VwIiwia2V5TnVtYmVyIjpudWxsLCJkZXNjcmlwdGlvbiI6IkFtYXpvbiBTMyBCYWNrdXAiLCJvcmlnaW4iOiJidW5kbGVkIiwiYnVuZGxlIjoiSG9zdGluZyBQYWNrIGZvciBQbGVzayIsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJwYXJ0bmVyIn0seyJjb2RlIjoic2Z0cC1iYWNrdXAiLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiU0ZUUCBCYWNrdXAiLCJvcmlnaW4iOiJidW5kbGVkIiwiYnVuZGxlIjoiSG9zdGluZyBQYWNrIGZvciBQbGVzayIsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJwYXJ0bmVyIn0seyJjb2RlIjoid3AtdG9vbGtpdCIsImtleU51bWJlciI6bnVsbCwiZGVzY3JpcHRpb24iOiJXUCBUb29sa2l0Iiwib3JpZ2luIjoiYnVuZGxlZCIsImJ1bmRsZSI6IlBsZXNrIFdlYiBIb3N0IEVkaXRpb24gKERlZGljYXRlZCBTZXJ2ZXIpIiwib3JkZXJBY3Rpb24iOm51bGwsInNvdXJjZSI6InBhcnRuZXIifV0=</plesk-unified:feature-packs-info>
-   <!--Enable Complete Backup Solution feature-->
-   <plesk-unified:complete-backup-solution core:type="boolean">true</plesk-unified:complete-backup-solution>
+   <plesk-unified:feature-packs-info core:encoding="base64" core:type="binary">W3siY29kZSI6Im9mZmVyLWNncm91cHMiLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiUGxlc2sgQ2dyb3VwcyBNYW5hZ2VyIiwib3JpZ2luIjoiYnVuZGxlZCIsImJ1bmRsZSI6IlBsZXNrIFdlYiBIb3N0IEVkaXRpb24gKERlZGljYXRlZCBTZXJ2ZXIpIiwib3JkZXJBY3Rpb24iOm51bGwsInNvdXJjZSI6InBhcnRuZXIifSx7ImNvZGUiOiJvZmZlci13ZWItcHJlc2VuY2UtYnVpbGRlciIsImtleU51bWJlciI6bnVsbCwiZGVzY3JpcHRpb24iOiJXZWIgUHJlc2VuY2UgQnVpbGRlciIsIm9yaWdpbiI6ImluZGl2aWR1YWwiLCJidW5kbGUiOm51bGwsIm9yZGVyQWN0aW9uIjoiYnV5Iiwic291cmNlIjoicGFydG5lciJ9LHsiY29kZSI6IndwLXRvb2xraXQiLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiV1AgVG9vbGtpdCIsIm9yaWdpbiI6ImJ1bmRsZWQiLCJidW5kbGUiOiJQbGVzayBXZWIgSG9zdCBFZGl0aW9uIChEZWRpY2F0ZWQgU2VydmVyKSIsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJwYXJ0bmVyIn1d</plesk-unified:feature-packs-info>
    <!--Preferred View-->
    <plesk-unified:preferred-view core:type="string">service provider</plesk-unified:preferred-view>
    <!--Information about machineId-->
-   <plesk-unified:machine-id-info core:encoding="base64" core:type="binary">W3sidmVyc2lvbiI6MSwidmFsdWUiOiI1NjQ2Mzk2N0E0MEZGOEY5Mjk2OEM4NzNEOTMzRTYwQTI4M0UxNzRCQTYxNDRCNzEwODM1Rjk1MjI0OEI0NDcxIn1d</plesk-unified:machine-id-info>
+   <plesk-unified:machine-id-info core:encoding="base64" core:type="binary">W3sidmVyc2lvbiI6MSwidmFsdWUiOiI1MzE2Q0ExQzVERENBOEU2Q0VDQ0ZDRTU4RjNCODU0MEU1NDBFRTIyRjYxODBGQjg5NDkyOTA0MDUxQjNENTMxIn1d</plesk-unified:machine-id-info>
    <!--Shows if Plesk should check discrepancies between server and license machine id-->
    <plesk-unified:check-machine-id-enabled core:type="boolean">false</plesk-unified:check-machine-id-enabled>
    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
@@ -156,10 +155,10 @@
                <ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>x/zgFhYTQPq00MHG1hUF6MxrMoB/UpsS8BxrJIEuEB8=</ds:DigestValue>
+            <ds:DigestValue>wj2PfSBBvkYmL5/D131bsq3KAhd8zsPY9mwytCzK9e4=</ds:DigestValue>
          </ds:Reference>
       </ds:SignedInfo>
-      <ds:SignatureValue>G+Ufr2AkAKpS5h7tZeUzwWL1jiJqOiSDuL0w10k2dQRnlgRga5hWaAPrfTWM1uUOyitLqZxQF9ZUDMR/4y/vS8SU382gyXbkdNEGDBKzTH1C81y43Aj2yO6JI6GNMcuWQNQidcqPASnrxDm4JMPnPZDt8+iOCjAmDj9Lj6lMuXdTsurumLbWkqnOo3aLROPlrsjvqknIpeOrrqAswzJm/9JlW/1+9cfaiQIfYtD+V8OPGLqsO0DHoG3eDg8iWmoyCi+YiCbYxufy4hQTJj/Px/yDxu1kBtpU8YWUqZVeOkPT8/SAuzqRuWChAzIXMIuVnW9k4vz87YPYAIInsm2xNA==</ds:SignatureValue>
+      <ds:SignatureValue>PPlHAisI0J+7axTnMD89RfCWlUAjL32skLYMAP7KyPnU+dG6Ts2dAk8hMMY7POO0ltOpyQVgF2F4vV4GJm2sbTyB8RdiKex5EwvzVeUvc+W7qyETw4FvCe9csm5v0uPWLybwYf9GiLSmugydxqHu1KP06RU6n8WPwNbL1TopCkOByN0/tw3Pv0LrdfDfg5KjgMz4w1/jWj/MMdtUG30JsC1UHjP8kkhlhaDInutUkQZ3qghIt5aoJajCqU/yRCcEMqm9rJIM6pg/0Xe8V7GAdS+n5l3k2uWum1dibnfad/Oz97gR079lEixLgu9G7HGac1xYdfOezYR/ZqWcCyANqg==</ds:SignatureValue>
       <ds:KeyInfo>
          <ds:X509Data>
             <ds:X509Certificate>MIIEnjCCAoYCATAwDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkJNMQswCQYDVQQIEwJITTERMA8GA1UEBxMISGFtaWx0b24xHDAaBgNVBAoTE1NXc29mdCBIb2xkaW5ncyBMdGQxHTAbBgNVBAsTFEludGVybmFsIERldmVsb3BtZW50MRwwGgYDVQQDExNLQSByb290IGNlcnRpZmljYXRlMRwwGgYJKoZIhvcNAQkBFg1rYUBzd3NvZnQuY29tMB4XDTEzMTExMTA5MjgxMloXDTQxMDMyOTA5MjgxMlowgYIxFjAUBgNVBAMTDXBsZXNrLXVuaWZpZWQxHTAbBgNVBAsTFEludGVybmFsIERldmVsb3BtZW50MRwwGgYDVQQKExNTV3NvZnQgSG9sZGluZ3MgTHRkMREwDwYDVQQHEwhIYW1pbHRvbjELMAkGA1UECBMCSE0xCzAJBgNVBAYTAkJNMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjNtqGgtkC6EnyE3Qla2E4+jiQPD2Gw0BhhEbxs5ca2Gr2ue9Y6GTVf1Ci5rri39Pg7/UyDI8HpGB5wCVg36aMugvAT1+hPSnAbDjSxjfZ9zZ5WPMc5t/z9TnFFdHm+ZThngHF449dnIdxbmBzZoIcKQ4VgNtbpI48hAAZSqod6IhUVVnsiOiVKoAvFmOSJWfE1Yo6ENCQoAGHMiICNZiJ8FG3n0p+agKGqblINwC91N42MGsxVpLFGlu3wQLJ/MYwt/2qBXYpVmlhx3cXXWfd6tYbr1HY404FULjjJHdCg47YRQe9bwD595qE+XphkJOPapOLr5F0OIRDPT2uga2MQIDAQABMA0GCSqGSIb3DQEBBQUAA4ICAQBLiGM4TnQ/oYVBniQNcexWxI3EXFhJ41cMeqkx2nYQ5GSCZhdIAAJuPbZCJhqzT+Lln04sgeachA6zn2Vlg9X6Bfx7GVnoSZq5CDmGqj00W+kQ6aF839JoP9WdYWjw1VRN5iVJ8P9oPVtlWxKxu6U3iF3coy8IgEaMa154YUBxvjb5hSrfqjxCUtjrM1w8nJhuxvrawEcva9129fnWR2cNUEVZbiw32MHn2Sh5HEkXgAxRVPvq+2trYkPZMWR7Qz1I5I9i8vmTJxtUuMa6LkmecaHyQpKXSlc4fZ0HEoxiuBYV9nTadePXzkOF+LzjT7igwka3PKDmGY/gyhprK4OgNYn5cRda6NJ9deTuUGKOZZqWA5YO/TPdVqftrFtqrc2Ked/CVepMp3jyyyu6eTlYGBY/Va6xbMDENdM8Son2cyCqwsIxPTufmTvGtlsk6kYq0spAfE4GwCBqIiYME40RR06lgywKTdBi7cHzk6hT6je1TcbAO5pRdhtrYzHSFFi8mJulhVz2Om7iALygneIt2ek//ny/Ke5vy0qGPXFgAi56IGdzOfO4LN3qVNp54aY3k3FaEs8mbkIi/35VQAl6Di5LtcC3VPUapvlcTEu2nXY7Su9kmGm171ripm17s464uWXMPrGr1jHBYHkd7aItrmkPOKqd1iMwqafHSPwj2A==</ds:X509Certificate>
