@@ -24,6 +24,6 @@ To utilize this activator, follow these simple steps:
 ## License Info
 ```
 Edition Name: web host edition
-Plesk Key ID: PLSK072282830039
-License Expiry Date: 2024-05-02
+Plesk Key ID: PLSK111385020006
+License Expiry Date: 2024-06-24
 ```
