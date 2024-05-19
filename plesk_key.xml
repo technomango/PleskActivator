@@ -2,7 +2,7 @@
    <!--Unique product Key number-->
    <core:key-number core:type="string">PLSK.11138502</core:key-number>
    <!--Key version-->
-   <core:key-version core:type="string">0001</core:key-version>
+   <core:key-version core:type="string">0006</core:key-version>
    <!--Key description-->
    <core:description>
       <core:keytype>Plesk Web Host Edition (Dedicated Server)</core:keytype>
@@ -21,11 +21,11 @@
    <!--Date after which this license becomes usable (inclusive)-->
    <core:start-date core:type="date">instant</core:start-date>
    <!--Date before which this license is usable (exclusive)-->
-   <core:expiration-date core:type="date">2024-05-24</core:expiration-date>
+   <core:expiration-date core:type="date">2024-06-24</core:expiration-date>
    <!--URL of the service endpoint to use when performing an autoupdate-->
    <core:license-server-url core:type="string">https://ka.plesk.com/xmlrpc</core:license-server-url>
    <!--Date when product will try to perform an autoupdate-->
-   <core:update-date core:type="date">2024-05-14</core:update-date>
+   <core:update-date core:type="date">2024-05-19</core:update-date>
    <core:update-ticket core:hidden="true" core:type="string">8ewd1609wbfq9qnt6k-hdzkgptek0r01</core:update-ticket>
    <!--Number of domains-->
    <plesk-unified:domains core:type="integer">unlimited</plesk-unified:domains>
@@ -156,10 +156,10 @@
                <ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>cigH7sYF1xIP/IO9GNRGHjhbFJRegEywQ1o1Pgg+1Z0=</ds:DigestValue>
+            <ds:DigestValue>GofVyTScy+hRS70DMWwXzXJrYHxL0ZTQDinoFaksA9U=</ds:DigestValue>
          </ds:Reference>
       </ds:SignedInfo>
-      <ds:SignatureValue>ODXAJJCGmuO3c2r9uGhTbsfC1Z5CjM2Bo3bWsjzUC9s/jk4uuA+XHKMFejPR+G00Fwzsixyk90LBO3MujbQ4/1dwe7GBptCeniMLKa8VYT1xkDWxFVkcVL02lGYl66eyI014xx3znkAHzjGy0BihyFAM+/1DGI1sMl01eAhPcwGCL02aSSvXL8vd2KMwi2gLrwFQdhxA77LGk3iLpwnM+dKDfM5L2Zmqka9LzKpQylBPW9UKZvmyJtbK4Dh4zMQphXncRNHO/iy3e37ghbPMSwd96gA/h4cu3/CWBwmZNb7Kc0B0It6MtegI9XHPE757EhfAKNSTl0Paim4zUJuW3Q==</ds:SignatureValue>
+      <ds:SignatureValue>SoD3wWaDtVkaE8609VQv+nHkYRLDGbDaslUz7CDUNxOOH9MIUACx35bA13JSeoE7VBzTterxDEx7LlbBHn1XYQevDlJ40nhtgMaNyb5yWa3WMNaqpGywPO9olFZrc3GN4vlwA4/FhtgWnTvHJZiIXTgbiiigwZeva8BbCIXLY3xKMLH0Nb+Pjc8dnW4gehdp9o/PfGlX2lcFQfw8TwN8uF8qoxWHzQqnAG94xODzVhYNYFpCuLyUWgcah/rVmx3I14Ve0KQp58h8sAtAS88DUnDx7DBr1QrpgA/aTI1e8jSNf+mCweyLmflshGKTlDHRrS+LSj9vcIfWkHop1213Ow==</ds:SignatureValue>
       <ds:KeyInfo>
          <ds:X509Data>
             <ds:X509Certificate>MIIEnjCCAoYCATAwDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkJNMQswCQYDVQQIEwJITTERMA8GA1UEBxMISGFtaWx0b24xHDAaBgNVBAoTE1NXc29mdCBIb2xkaW5ncyBMdGQxHTAbBgNVBAsTFEludGVybmFsIERldmVsb3BtZW50MRwwGgYDVQQDExNLQSByb290IGNlcnRpZmljYXRlMRwwGgYJKoZIhvcNAQkBFg1rYUBzd3NvZnQuY29tMB4XDTEzMTExMTA5MjgxMloXDTQxMDMyOTA5MjgxMlowgYIxFjAUBgNVBAMTDXBsZXNrLXVuaWZpZWQxHTAbBgNVBAsTFEludGVybmFsIERldmVsb3BtZW50MRwwGgYDVQQKExNTV3NvZnQgSG9sZGluZ3MgTHRkMREwDwYDVQQHEwhIYW1pbHRvbjELMAkGA1UECBMCSE0xCzAJBgNVBAYTAkJNMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjNtqGgtkC6EnyE3Qla2E4+jiQPD2Gw0BhhEbxs5ca2Gr2ue9Y6GTVf1Ci5rri39Pg7/UyDI8HpGB5wCVg36aMugvAT1+hPSnAbDjSxjfZ9zZ5WPMc5t/z9TnFFdHm+ZThngHF449dnIdxbmBzZoIcKQ4VgNtbpI48hAAZSqod6IhUVVnsiOiVKoAvFmOSJWfE1Yo6ENCQoAGHMiICNZiJ8FG3n0p+agKGqblINwC91N42MGsxVpLFGlu3wQLJ/MYwt/2qBXYpVmlhx3cXXWfd6tYbr1HY404FULjjJHdCg47YRQe9bwD595qE+XphkJOPapOLr5F0OIRDPT2uga2MQIDAQABMA0GCSqGSIb3DQEBBQUAA4ICAQBLiGM4TnQ/oYVBniQNcexWxI3EXFhJ41cMeqkx2nYQ5GSCZhdIAAJuPbZCJhqzT+Lln04sgeachA6zn2Vlg9X6Bfx7GVnoSZq5CDmGqj00W+kQ6aF839JoP9WdYWjw1VRN5iVJ8P9oPVtlWxKxu6U3iF3coy8IgEaMa154YUBxvjb5hSrfqjxCUtjrM1w8nJhuxvrawEcva9129fnWR2cNUEVZbiw32MHn2Sh5HEkXgAxRVPvq+2trYkPZMWR7Qz1I5I9i8vmTJxtUuMa6LkmecaHyQpKXSlc4fZ0HEoxiuBYV9nTadePXzkOF+LzjT7igwka3PKDmGY/gyhprK4OgNYn5cRda6NJ9deTuUGKOZZqWA5YO/TPdVqftrFtqrc2Ked/CVepMp3jyyyu6eTlYGBY/Va6xbMDENdM8Son2cyCqwsIxPTufmTvGtlsk6kYq0spAfE4GwCBqIiYME40RR06lgywKTdBi7cHzk6hT6je1TcbAO5pRdhtrYzHSFFi8mJulhVz2Om7iALygneIt2ek//ny/Ke5vy0qGPXFgAi56IGdzOfO4LN3qVNp54aY3k3FaEs8mbkIi/35VQAl6Di5LtcC3VPUapvlcTEu2nXY7Su9kmGm171ripm17s464uWXMPrGr1jHBYHkd7aItrmkPOKqd1iMwqafHSPwj2A==</ds:X509Certificate>
