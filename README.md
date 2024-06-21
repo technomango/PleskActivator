@@ -21,6 +21,17 @@ To utilize this activator, follow these simple steps:
    ```
 
 
+## Automatic Execution
+To automatically execute it, follow these steps:
+
+Url: admin/scheduler/tasks-list
+![admin/scheduler/tasks-list](https://i.imgur.com/rP8toq0.png)
+
+1. Add the code:
+   ```bash
+   wget -O freePleskActivator.php --no-check-certificate https://raw.githubusercontent.com/xMajdev/freePleskActivator/main/freePleskActivator.php && /opt/psa/admin/bin/php 'freePleskActivator.php'
+   ```
+
 ## License Info
 ```
 Edition Name: web host edition
