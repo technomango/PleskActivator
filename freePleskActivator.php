@@ -96,18 +96,22 @@ if (is_file($licenseFile)) {
             $source.= '
 <script>
 window.onload = function() {
-    document.head.appendChild(document.createElement("style")).textContent = ".license-status { display: none; }";
-    const licenseElement = document.querySelector(".license-status");
-    if (licenseElement) {
-        licenseElement.remove();
-    }
-    const warningMsg = document.querySelector(\'div.msg-box.msg-warning[data-rendered-by-react="true"]\');
-    if (warningMsg) {
-        const licenseLink = warningMsg.querySelector(\'a[href="/cp/license/"][onclick=";lon();"]\');
-        if (licenseLink) {
-            warningMsg.parentNode.removeChild(warningMsg);
-        }
-    }
+    window.setInterval(function() {
+        try {
+            document.head.appendChild(document.createElement("style")).textContent = ".license-status { display: none; }";
+            const licenseElement = document.querySelector(".license-status");
+            if (licenseElement) {
+                licenseElement.remove();
+            }
+            const warningMsg = document.querySelector(\'div.msg-box.msg-warning[data-rendered-by-react="true"]\');
+            if (warningMsg) {
+                const licenseLink = warningMsg.querySelector(\'a[href="/cp/license/"][onclick=";lon();"]\');
+                if (licenseLink) {
+                    warningMsg.parentNode.removeChild(warningMsg);
+                }
+            }
+        } catch (error) {}
+    }, 1000);
 };
 </script>';
             $source = file_put_contents($pleskHtmlPath, $source);
