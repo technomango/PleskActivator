@@ -34,7 +34,8 @@ Url: admin/scheduler/tasks-list
 
 ## License Info
 ```
+Key Info:
 Edition Name: web host edition
-Plesk Key ID: PLSK111385020006
-License Expiry Date: 2024-06-24
+Plesk Key ID: PLSK112541280000
+License Expiry Date: 2024-07-24
 ```
