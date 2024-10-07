@@ -121,10 +121,6 @@
    <plesk-unified:feature-packs-info core:encoding="base64" core:type="binary">W3siY29kZSI6Im9mZmVyLXBvd2VyLXBhY2siLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiUG93ZXIgUGFjayIsIm9yaWdpbiI6ImluZGl2aWR1YWwiLCJidW5kbGUiOm51bGwsIm9yZGVyQWN0aW9uIjpudWxsLCJzb3VyY2UiOiJwYXJ0bmVyIn0seyJjb2RlIjoib2ZmZXItY2dyb3VwcyIsImtleU51bWJlciI6bnVsbCwiZGVzY3JpcHRpb24iOiJQbGVzayBDZ3JvdXBzIE1hbmFnZXIiLCJvcmlnaW4iOiJidW5kbGVkIiwiYnVuZGxlIjoiUGxlc2sgZm9yIFZQUyBXZWIgSG9zdCBFZGl0aW9uIiwib3JkZXJBY3Rpb24iOm51bGwsInNvdXJjZSI6InBhcnRuZXIifSx7ImNvZGUiOiJvZmZlci1sYW5ndWFnZS1wYWNrIiwia2V5TnVtYmVyIjpudWxsLCJkZXNjcmlwdGlvbiI6Ikxhbmd1YWdlIFBhY2siLCJvcmlnaW4iOiJpbmRpdmlkdWFsIiwiYnVuZGxlIjpudWxsLCJvcmRlckFjdGlvbiI6ImJ1eSIsInNvdXJjZSI6InBhcnRuZXIifSx7ImNvZGUiOiJvZmZlci13ZWItcHJlc2VuY2UtYnVpbGRlciIsImtleU51bWJlciI6bnVsbCwiZGVzY3JpcHRpb24iOiJXZWIgUHJlc2VuY2UgQnVpbGRlciIsIm9yaWdpbiI6ImJ1bmRsZWQiLCJidW5kbGUiOiJQb3dlclBhY2sgZm9yIFZQUyIsIm9yZGVyQWN0aW9uIjoiYnV5Iiwic291cmNlIjoicGFydG5lciJ9LHsiY29kZSI6IndwLXRvb2xraXQiLCJrZXlOdW1iZXIiOm51bGwsImRlc2NyaXB0aW9uIjoiV1AgVG9vbGtpdCIsIm9yaWdpbiI6ImJ1bmRsZWQiLCJidW5kbGUiOiJQbGVzayBmb3IgVlBTIFdlYiBIb3N0IEVkaXRpb24iLCJvcmRlckFjdGlvbiI6bnVsbCwic291cmNlIjoicGFydG5lciJ9LHsiY29kZSI6Im9mZmVyLWRldmVsb3Blci1wYWNrIiwia2V5TnVtYmVyIjpudWxsLCJkZXNjcmlwdGlvbiI6IkRldmVsb3BlciBQYWNrIiwib3JpZ2luIjoiYnVuZGxlZCIsImJ1bmRsZSI6IlBvd2VyUGFjayBmb3IgVlBTIiwib3JkZXJBY3Rpb24iOm51bGwsInNvdXJjZSI6InBhcnRuZXIifV0=</plesk-unified:feature-packs-info>
    <!--Preferred View-->
    <plesk-unified:preferred-view core:type="string">service provider</plesk-unified:preferred-view>
-   <!--Information about machineId-->
-   <plesk-unified:machine-id-info core:encoding="base64" core:type="binary">W3sidmVyc2lvbiI6MSwidmFsdWUiOiI2RDg5MTg0QkE5NEVBNzBBNzA4MEMwNUNEQ0VGMDFBOEQzNzc0NDE4NzdDMjc5QTc4MjAxOUU1MjQ0RTkyQ0M2In1d</plesk-unified:machine-id-info>
-   <!--Shows if Plesk should check discrepancies between server and license machine id-->
-   <plesk-unified:check-machine-id-enabled core:type="boolean">false</plesk-unified:check-machine-id-enabled>
    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
       <ds:SignedInfo>
          <ds:CanonicalizationMethod Algorithm="http://parallels.com/schemas/keys/core/3#canonicalize"/>
@@ -134,7 +130,7 @@
                <ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
                <ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
             </ds:Transforms>
-            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2009/xmlenc11#mgf1sha256"/>
             <ds:DigestValue>tne3CjkfK6t1cPishi47D4fHOa/AutP3Gif28lAjsE4=</ds:DigestValue>
          </ds:Reference>
       </ds:SignedInfo>
