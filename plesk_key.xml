@@ -9,25 +9,21 @@
       <core:feature>Monthly SUS for Plesk</core:feature>
       <core:feature>PowerPack for VPS</core:feature>
       <core:feature>1 Language Pack for Plesk 12/Onyx/Obsidian for VPS</core:feature>
-      <core:property core:value="1">Additional Language Packs</core:property>
+      <core:property core:value="3">Additional Language Packs</core:property>
    </core:description>
    <!--Product which this license is intended to work on-->
    <core:product core:type="string">plesk-unified</core:product>
    <!--Supported product version-->
-   <core:version core:type="string">12.0</core:version>
-   <!--Supported product version-->
    <core:version core:type="string">18.0</core:version>
-   <!--Supported product version-->
-   <core:version core:type="string">17.0</core:version>
    <!--Date after which this license becomes usable (inclusive)-->
    <core:start-date core:type="date">instant</core:start-date>
    <!--Date before which this license is usable (exclusive)-->
-   <core:expiration-date core:type="date">2024-11-08</core:expiration-date>
+   <core:expiration-date core:type="date">never</core:expiration-date>
    <!--URL of the service endpoint to use when performing an autoupdate-->
    <core:license-server-url core:type="string">https://ka.plesk.com/xmlrpc</core:license-server-url>
    <!--Date when product will try to perform an autoupdate-->
-   <core:update-date core:type="date">2024-11-14</core:update-date>
-   <core:update-ticket core:hidden="true" core:type="string">q0552devmz91kev5hj-5gcuqt6mt8m9k</core:update-ticket>
+   <core:update-date core:type="date">instant</core:update-date>
+   <core:update-ticket core:hidden="true" core:type="string">------default------</core:update-ticket>
    <!--Number of domains-->
    <plesk-unified:domains core:type="integer">unlimited</plesk-unified:domains>
    <!--Number of clients-->
@@ -53,23 +49,7 @@
    <!--Subdomains-->
    <plesk-unified:subdomains-support core:type="boolean">true</plesk-unified:subdomains-support>
    <!--Backward key compatibility restriction-->
-   <plesk-unified:backward-restriction core:type="integer">1</plesk-unified:backward-restriction>
-   <!--Work Inside Virtuozzo-->
-   <plesk-unified:vps-only core:type="boolean">true</plesk-unified:vps-only>
-   <!--Work Inside Hyper-V-->
-   <plesk-unified:hyper-v core:type="boolean">true</plesk-unified:hyper-v>
-   <!--Work Inside VMware-->
-   <plesk-unified:vmware core:type="boolean">true</plesk-unified:vmware>
-   <!--Work Inside Xen-->
-   <plesk-unified:xen core:type="boolean">true</plesk-unified:xen>
-   <!--Work Inside KVM-->
-   <plesk-unified:kvm core:type="boolean">true</plesk-unified:kvm>
-   <!--Work Inside Parallels Hypervisor-->
-   <plesk-unified:hypervisor core:type="boolean">true</plesk-unified:hypervisor>
-   <!--Work Inside LXC-->
-   <plesk-unified:lxc core:type="boolean">true</plesk-unified:lxc>
-   <!--Work Inside Parallels Server-->
-   <plesk-unified:parallels-server core:type="boolean">true</plesk-unified:parallels-server>
+   <plesk-unified:backward-restriction core:type="integer">0</plesk-unified:backward-restriction>
    <!--Global changes-->
    <plesk-unified:global-changes core:type="boolean">true</plesk-unified:global-changes>
    <!--Shell access-->
@@ -145,7 +125,7 @@
    <plesk-unified:machine-id-info core:encoding="base64" core:type="binary">W3sidmVyc2lvbiI6MSwidmFsdWUiOiI2RDg5MTg0QkE5NEVBNzBBNzA4MEMwNUNEQ0VGMDFBOEQzNzc0NDE4NzdDMjc5QTc4MjAxOUU1MjQ0RTkyQ0M2In1d</plesk-unified:machine-id-info>
    <!--Shows if Plesk should check discrepancies between server and license machine id-->
    <plesk-unified:check-machine-id-enabled core:type="boolean">false</plesk-unified:check-machine-id-enabled>
-   <ds:Signature xmlns:ds="http://www.w3.org/2009/xmldsig11#">
+   <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
       <ds:SignedInfo>
          <ds:CanonicalizationMethod Algorithm="http://parallels.com/schemas/keys/core/3#canonicalize"/>
          <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
@@ -154,14 +134,42 @@
                <ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
                <ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
             </ds:Transforms>
-            <ds:DigestMethod Algorithm="http://www.w3.org/2009/xmlenc#rsa-sha256"/>
-            <ds:DigestValue>fSo1MKlNSkstZmJFnJhHVkVPG7io/mnWmne4zFkZKZU=</ds:DigestValue>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestValue>tne3CjkfK6t1cPishi47D4fHOa/AutP3Gif28lAjsE4=</ds:DigestValue>
          </ds:Reference>
       </ds:SignedInfo>
-      <ds:SignatureValue>XahwOHqXIb4xxrSDI9anIv1bZkDIeQR7BJT9RAFXidmKymqc5JnDe10DzWAn1MkVzy9ZSK6e5bebsoFPSWZbyEVCRP5TLN1fxV2eNeK+SKD2ZamZNlXbCbpcu0F9C1c0/Pm0Iy+YqC1V/+DfMQsAI17dmqE5VWCC7RHq9t1TjZxlLNMEqdl/qsgy1W3/T1O9PEvyNlOj5Xe8AcAmzLUCtmE61hU6KnoSQEs/YjmIS8d0BvZdVdsFffFK4lJAIuQaFnkLT/XVPoabZ/yGpnReTXwRiM2ae4IYyMktTydRnvrkqf60+AS/4QY7NjDtRkJ1Htdm4TX8rHc0NjP5ZK3Dzg==</ds:SignatureValue>
+      <ds:SignatureValue>
+b3g+jFGMrjJcdYnwXrGLhrLodf27c6Z5yhs9qpFnWTmgoj1tfSnd/sENbtB3UjH/TKmqbBddl0Pa
+Y8y/8o0W5SK3anw1mJe4OGbFwPYABIUaTbVnPaADrQ91ffkSWCzQbr/jvdZfUTWnq3RhpUkeG4cA
+Z0Q+EzsD33K7cEL0317fcbzmLeKWr0msFhE8WYHFnbzaZL8pzRIbWkmpUUEMLOxjcHMKUBReXxQ5
+6VJsQbbNT2NECYggoQH3JSIfr4G84SA8OSiFlLQWWetgfS7BH0xpwaUZCVMQcTYjfAerdgrAQP+O
+xMdcSr5Smd2s/zmbbFRAX+ssMSZjoB5Omy5Lsw==
+</ds:SignatureValue>      
       <ds:KeyInfo>
          <ds:X509Data>
-            <ds:X509Certificate>MIIEnjCCAoYCATAwDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkJNMQswCQYDVQQIEwJITTERMA8GA1UEBxMISGFtaWx0b24xHDAaBgNVBAoTE1NXc29mdCBIb2xkaW5ncyBMdGQxHTAbBgNVBAsTFEludGVybmFsIERldmVsb3BtZW50MRwwGgYDVQQDExNLQSByb290IGNlcnRpZmljYXRlMRwwGgYJKoZIhvcNAQkBFg1rYUBzd3NvZnQuY29tMB4XDTEzMTExMTA5MjgxMloXDTQxMDMyOTA5MjgxMlowgYIxFjAUBgNVBAMTDXBsZXNrLXVuaWZpZWQxHTAbBgNVBAsTFEludGVybmFsIERldmVsb3BtZW50MRwwGgYDVQQKExNTV3NvZnQgSG9sZGluZ3MgTHRkMREwDwYDVQQHEwhIYW1pbHRvbjELMAkGA1UECBMCSE0xCzAJBgNVBAYTAkJNMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjNtqGgtkC6EnyE3Qla2E4+jiQPD2Gw0BhhEbxs5ca2Gr2ue9Y6GTVf1Ci5rri39Pg7/UyDI8HpGB5wCVg36aMugvAT1+hPSnAbDjSxjfZ9zZ5WPMc5t/z9TnFFdHm+ZThngHF449dnIdxbmBzZoIcKQ4VgNtbpI48hAAZSqod6IhUVVnsiOiVKoAvFmOSJWfE1Yo6ENCQoAGHMiICNZiJ8FG3n0p+agKGqblINwC91N42MGsxVpLFGlu3wQLJ/MYwt/2qBXYpVmlhx3cXXWfd6tYbr1HY404FULjjJHdCg47YRQe9bwD595qE+XphkJOPapOLr5F0OIRDPT2uga2MQIDAQABMA0GCSqGSIb3DQEBBQUAA4ICAQBLiGM4TnQ/oYVBniQNcexWxI3EXFhJ41cMeqkx2nYQ5GSCZhdIAAJuPbZCJhqzT+Lln04sgeachA6zn2Vlg9X6Bfx7GVnoSZq5CDmGqj00W+kQ6aF839JoP9WdYWjw1VRN5iVJ8P9oPVtlWxKxu6U3iF3coy8IgEaMa154YUBxvjb5hSrfqjxCUtjrM1w8nJhuxvrawEcva9129fnWR2cNUEVZbiw32MHn2Sh5HEkXgAxRVPvq+2trYkPZMWR7Qz1I5I9i8vmTJxtUuMa6LkmecaHyQpKXSlc4fZ0HEoxiuBYV9nTadePXzkOF+LzjT7igwka3PKDmGY/gyhprK4OgNYn5cRda6NJ9deTuUGKOZZqWA5YO/TPdVqftrFtqrc2Ked/CVepMp3jyyyu6eTlYGBY/Va6xbMDENdM8Son2cyCqwsIxPTufmTvGtlsk6kYq0spAfE4GwCBqIiYME40RR06lgywKTdBi7cHzk6hT6je1TcbAO5pRdhtrYzHSFFi8mJulhVz2Om7iALygneIt2ek//ny/Ke5vy0qGPXFgAi56IGdzOfO4LN3qVNp54aY3k3FaEs8mbkIi/35VQAl6Di5LtcC3VPUapvlcTEu2nXY7Su9kmGm171ripm17s464uWXMPrGr1jHBYHkd7aItrmkPOKqd1iMwqafHSPwj2A==</ds:X509Certificate>
+            <ds:X509Certificate>
+MIIEnjCCAoYCATAwDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkJNMQswCQYDVQQIEwJITTER
+MA8GA1UEBxMISGFtaWx0b24xHDAaBgNVBAoTE1NXc29mdCBIb2xkaW5ncyBMdGQxHTAbBgNVBAsT
+FEludGVybmFsIERldmVsb3BtZW50MRwwGgYDVQQDExNLQSByb290IGNlcnRpZmljYXRlMRwwGgYJ
+KoZIhvcNAQkBFg1rYUBzd3NvZnQuY29tMB4XDTEzMTExMTA5MjgxMloXDTQxMDMyOTA5MjgxMlow
+gYIxFjAUBgNVBAMTDXBsZXNrLXVuaWZpZWQxHTAbBgNVBAsTFEludGVybmFsIERldmVsb3BtZW50
+MRwwGgYDVQQKExNTV3NvZnQgSG9sZGluZ3MgTHRkMREwDwYDVQQHEwhIYW1pbHRvbjELMAkGA1UE
+CBMCSE0xCzAJBgNVBAYTAkJNMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjNtqGgtk
+C6EnyE3Qla2E4+jiQPD2Gw0BhhEbxs5ca2Gr2ue9Y6GTVf1Ci5rri39Pg7/UyDI8HpGB5wCVg36a
+MugvAT1+hPSnAbDjSxjfZ9zZ5WPMc5t/z9TnFFdHm+ZThngHF449dnIdxbmBzZoIcKQ4VgNtbpI4
+8hAAZSqod6IhUVVnsiOiVKoAvFmOSJWfE1Yo6ENCQoAGHMiICNZiJ8FG3n0p+agKGqblINwC91N4
+2MGsxVpLFGlu3wQLJ/MYwt/2qBXYpVmlhx3cXXWfd6tYbr1HY404FULjjJHdCg47YRQe9bwD595q
+E+XphkJOPapOLr5F0OIRDPT2uga2MQIDAQABMA0GCSqGSIb3DQEBBQUAA4ICAQBLiGM4TnQ/oYVB
+niQNcexWxI3EXFhJ41cMeqkx2nYQ5GSCZhdIAAJuPbZCJhqzT+Lln04sgeachA6zn2Vlg9X6Bfx7
+GVnoSZq5CDmGqj00W+kQ6aF839JoP9WdYWjw1VRN5iVJ8P9oPVtlWxKxu6U3iF3coy8IgEaMa154
+YUBxvjb5hSrfqjxCUtjrM1w8nJhuxvrawEcva9129fnWR2cNUEVZbiw32MHn2Sh5HEkXgAxRVPvq
++2trYkPZMWR7Qz1I5I9i8vmTJxtUuMa6LkmecaHyQpKXSlc4fZ0HEoxiuBYV9nTadePXzkOF+Lzj
+T7igwka3PKDmGY/gyhprK4OgNYn5cRda6NJ9deTuUGKOZZqWA5YO/TPdVqftrFtqrc2Ked/CVepM
+p3jyyyu6eTlYGBY/Va6xbMDENdM8Son2cyCqwsIxPTufmTvGtlsk6kYq0spAfE4GwCBqIiYME40R
+R06lgywKTdBi7cHzk6hT6je1TcbAO5pRdhtrYzHSFFi8mJulhVz2Om7iALygneIt2ek//ny/Ke5v
+y0qGPXFgAi56IGdzOfO4LN3qVNp54aY3k3FaEs8mbkIi/35VQAl6Di5LtcC3VPUapvlcTEu2nXY7
+Su9kmGm171ripm17s464uWXMPrGr1jHBYHkd7aItrmkPOKqd1iMwqafHSPwj2A==
+</ds:X509Certificate>
          </ds:X509Data>
       </ds:KeyInfo>
    </ds:Signature>
