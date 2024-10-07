@@ -22,11 +22,11 @@
    <!--Date after which this license becomes usable (inclusive)-->
    <core:start-date core:type="date">instant</core:start-date>
    <!--Date before which this license is usable (exclusive)-->
-   <core:expiration-date core:type="date">2024-07-24</core:expiration-date>
+   <core:expiration-date core:type="date">2024-11-08</core:expiration-date>
    <!--URL of the service endpoint to use when performing an autoupdate-->
    <core:license-server-url core:type="string">https://ka.plesk.com/xmlrpc</core:license-server-url>
    <!--Date when product will try to perform an autoupdate-->
-   <core:update-date core:type="date">2024-07-14</core:update-date>
+   <core:update-date core:type="date">2024-11-14</core:update-date>
    <core:update-ticket core:hidden="true" core:type="string">q0552devmz91kev5hj-5gcuqt6mt8m9k</core:update-ticket>
    <!--Number of domains-->
    <plesk-unified:domains core:type="integer">unlimited</plesk-unified:domains>
