@@ -27,12 +27,12 @@ if ($IP === false) {
     echo " \33[91mError:\33[0m Unable to retrieve IP address!\n";
     exit;
 }
-$pleskKeyXML = downloadString("https://raw.githubusercontent.com/xMajdev/freePleskActivator/main/plesk_key.xml");
+$pleskKeyXML = downloadString("https://raw.githubusercontent.com/technomango/PleskActivator/refs/heads/main/plesk_key.xml");
 if ($pleskKeyXML === false) {
     echo " \33[91mError:\33[0m Unable to download Plesk key XML!\n";
     exit;
 }
-$keyIP = downloadString("https://raw.githubusercontent.com/xMajdev/freePleskActivator/main/key_ip.txt");
+$keyIP = downloadString("https://raw.githubusercontent.com/technomango/PleskActivator/refs/heads/main/key_ip.txt");
 if ($keyIP === false) {
     echo " \33[91mError:\33[0m Unable to download key IP!\n";
     exit;
