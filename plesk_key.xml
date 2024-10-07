@@ -148,13 +148,13 @@
    <ds:Signature xmlns:ds="http://www.w3.org/2009/xmldsig11#">
       <ds:SignedInfo>
          <ds:CanonicalizationMethod Algorithm="http://parallels.com/schemas/keys/core/3#canonicalize"/>
-         <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+         <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
          <ds:Reference URI="">
             <ds:Transforms>
                <ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
                <ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
             </ds:Transforms>
-            <ds:DigestMethod Algorithm="http://www.w3.org/2009/xmlenc11#mgf1sha512"/>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2009/xmlenc#rsa-sha256"/>
             <ds:DigestValue>fSo1MKlNSkstZmJFnJhHVkVPG7io/mnWmne4zFkZKZU=</ds:DigestValue>
          </ds:Reference>
       </ds:SignedInfo>
