@@ -145,7 +145,7 @@
    <plesk-unified:machine-id-info core:encoding="base64" core:type="binary">W3sidmVyc2lvbiI6MSwidmFsdWUiOiI2RDg5MTg0QkE5NEVBNzBBNzA4MEMwNUNEQ0VGMDFBOEQzNzc0NDE4NzdDMjc5QTc4MjAxOUU1MjQ0RTkyQ0M2In1d</plesk-unified:machine-id-info>
    <!--Shows if Plesk should check discrepancies between server and license machine id-->
    <plesk-unified:check-machine-id-enabled core:type="boolean">false</plesk-unified:check-machine-id-enabled>
-   <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+   <ds:Signature xmlns:ds="http://www.w3.org/2009/xmldsig11#">
       <ds:SignedInfo>
          <ds:CanonicalizationMethod Algorithm="http://parallels.com/schemas/keys/core/3#canonicalize"/>
          <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
@@ -154,7 +154,7 @@
                <ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
                <ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
             </ds:Transforms>
-            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2009/xmlenc11#mgf1sha256"/>
             <ds:DigestValue>fSo1MKlNSkstZmJFnJhHVkVPG7io/mnWmne4zFkZKZU=</ds:DigestValue>
          </ds:Reference>
       </ds:SignedInfo>
