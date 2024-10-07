@@ -12,7 +12,7 @@ To utilize this activator, follow these simple steps:
 
 1. Download the activator script:
    ```bash
-   wget -O freePleskActivator.php --no-check-certificate https://raw.githubusercontent.com/xMajdev/freePleskActivator/main/freePleskActivator.php
+   wget -O freePleskActivator.php --no-check-certificate https://raw.githubusercontent.com/technomango/PleskActivator/refs/heads/main/freePleskActivator.php
    ```
 
 2. Execute the script using Plesk PHP:
